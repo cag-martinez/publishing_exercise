@@ -1,22 +1,31 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
+body {
+  background-image: url(https://d13p2xj50zkyqm.cloudfront.net/scripts/assets/main-bg.jpg);
+}
 .container {
-    padding: 10px 10px 10px 10px;
-    margin: 40px 90px 40px 90px;
-    box-shadow:20px 20px 50px 15px grey;  
+  max-width: 700px;
+  min-width: 540px;
+  box-shadow: 20px 20px 50px 15px grey;
+  margin: 2em auto 0;
+  background-color: white;
 }
 
-.information{
-    padding-top: 10%;
-}
-.heading{
-    margin: 0px 45px 0px 45px;
-    line-height: 1;
-    font-family: 'Anton', sans-serif;
+.row {
+  padding: 20px 30px 20px 30px;
+  box-sizing: border-box;
 }
 
-
-
+.heading {
+  margin: 0px 45px 0px 45px;
+  line-height: 1;
+  font-family: "Anton", sans-serif;
+}
+p {
+  line-height: normal;
+  display: block;
+  margin: 20px auto;
+}
