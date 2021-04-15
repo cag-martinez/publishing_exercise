@@ -14,14 +14,9 @@
 }
 .heading{
     margin: 0px 45px 0px 45px;
-    line-height: 250%;
+    line-height: 1;
     font-family: 'Anton', sans-serif;
 }
 
-.spacing {
-    line-height: 10%;
-}
-.paragraphs{
-    line-height: 1.6;
-}
+
 
